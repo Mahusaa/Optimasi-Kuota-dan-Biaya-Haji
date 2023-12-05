@@ -5,7 +5,7 @@
 #include <math.h>
 
 typedef struct{
-    char wilayah;
+    char wilayah[50];
     int persentase;
     int jumlahPendaftar;
     int kuotaWilayah;
@@ -15,7 +15,7 @@ typedef struct{
     char nama[100];
     char gender[10];
     int umur;
-    char address[10];
+    char address[50];
     unsigned long long int no_ktp;
     unsigned long long int no_kk;
     int tanggungan;
